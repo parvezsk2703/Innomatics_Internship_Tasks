@@ -1,4 +1,4 @@
-# Problem 1
+_# Problem 1
 # HackerRank: https://www.hackerrank.com/challenges/py-if-else/problem
 
 n = int(input().strip())
