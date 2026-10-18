@@ -1,9 +1,11 @@
 # Problem: Set .union() Operation
 # HackerRank: https://www.hackerrank.com/challenges/py-set-union/problem
-n = int(input())
-english = set(input().split())
 
-b = int(input())
-french = set(input().split())
+if __name__ == '__main__':
+    n = int(input())
+    english = set(map(int, input().split()))
 
-print(len(english & french))
+    b = int(input())
+    french = set(map(int, input().split()))
+
+    print(len(english.union(french)))
